@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" automaticImage="JPEG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true" 
+  router="FAN">  
+  <class id="1" language="java" name="com.prashant20200126.multipleconnects.MultipleConnectsData" 
+    project="MultipleConnects" 
+    file="/MultipleConnects/src/com/prashant20200126/multipleconnects/MultipleConnectsData.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="297" width="606" x="266" y="999"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.prashant20200126.multipleconnects.TableFieldsforTest" 
+    project="MultipleConnects" 
+    file="/MultipleConnects/src/com/prashant20200126/multipleconnects/TableFieldsforTest.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="549" width="332" x="266" y="-53"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.prashant20200126.multipleconnects.MultipleConnectsAllTestCases" 
+    project="MultipleConnects" 
+    file="/MultipleConnects/src/com/prashant20200126/multipleconnects/MultipleConnectsAllTestCases.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="297" width="196" x="638" y="-53"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="4" language="java" name="com.prashant20200126.multipleconnects.MultipleConnectsInterface" 
+    project="MultipleConnects" 
+    file="/MultipleConnects/src/com/prashant20200126/multipleconnects/MultipleConnectsInterface.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="243" width="783" x="912" y="999"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="5" language="java" name="com.prashant20200126.multipleconnects.BlocksClass" project="MultipleConnects" 
+    file="/MultipleConnects/src/com/prashant20200126/multipleconnects/BlocksClass.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="243" width="180" x="1194" y="-53"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.prashant20200126.multipleconnects.MultipleConnects" project="MultipleConnects" 
+    file="/MultipleConnects/src/com/prashant20200126/multipleconnects/MultipleConnects.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="423" width="783" x="638" y="536"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.prashant20200126.multipleconnects.TableColumns" project="MultipleConnects" 
+    file="/MultipleConnects/src/com/prashant20200126/multipleconnects/TableColumns.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="369" width="345" x="266" y="1336"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="8">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <association id="9">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="10" name="dataList"/>      
+      <multiplicity id="11" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="12">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="13" name="data"/>      
+      <multiplicity id="14" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="15">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="16" name="mc"/>      
+      <multiplicity id="17" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
