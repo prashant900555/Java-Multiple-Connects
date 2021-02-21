@@ -1,0 +1,35 @@
+Readme
+
+
+Multiple Connects
+
+
+Game rules.
+1. Game can be played with 2 players.
+2. Each player will place concurrently (chance by chance).
+3. A player connecting the N Connect given by the players win the game.
+4. If the board becomes full, the tie condition will be met.
+5. The players can play multiple times, and each time they can design their own N Connect and Board Size.
+6. The recent results are visible in the Previous Results button.
+
+
+How to Run the Game
+* Run the MultipleConnects.java file by copying the whole package into the src of the Java Project Folder created by your IDE (However I have included the src file as the root path)
+* The main screen will be launched with a button to start a new game. There will also be a button to see the Previous Results in a representational tabular form.
+* In the main menu, the players can give their names accordingly to their favorite colors (red & blue), and also enter the Connect N and dimensions of the board.
+* On clicking the start button, you will enter the game.
+* Now you know the rules!
+* Enjoy!
+
+
+Configuration
+* Make sure you have JavaFX, Java 1.8, JUnit 5 and ObjectAidClassDiagram installed from the Eclipse store.
+* Make sure you copy paste the com.prashant20200126.multipleconnects package into your Java projects src folder.
+* You might need to change the file paths, since it might give you errors due to some issue in the run configurations of your IDE. So, you can obviously change that piece of code in accordance to your machine's file path.
+
+
+Running the Tests
+* All the test cases are in the MultipleConnectAllTestCases Class.
+* To run all the unit tests on all the classes, run the MultipleConnectAllTestCases Class. It will run all test cases defined in every test class.
+* To run the unit test for just one file, run the particular class in Junit test. It will run test cases only for that class.
+* The tests will also show the code coverage for each class, when you run the Code Coverage test.
